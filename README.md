@@ -58,6 +58,19 @@ https://www.jetbrains.com/ja-jp/pycharm/
 ###プロジェクト作成
 ![CreateProject](img/setting/create_project.png)
 
+###改行コード設定
+- 改行コード確認
+![confirm_crlf](img/setting/confirm_crlf.png)
+
+- 改行コード一括変更
+  - プロジェクトの親ディレクトリを選択
+  ![change_lf](img/setting/change_lf_1.png)
+
+  - 改行コード変更
+  ![change_lf](img/setting/change_lf_2.png)
+
 ###Git Clone
+- Get From VCSをクリック
 ![GitClone1](img/setting/git_clone_1.png)
+- Githubの情報を入力する
 ![GitClone2](img/setting/git_clone_2.png)
