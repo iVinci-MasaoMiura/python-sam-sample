@@ -40,7 +40,7 @@ Communityをインストールする
 
 https://www.jetbrains.com/ja-jp/pycharm/
 
-###設定
+###Pycharm設定
 - Pluginインストール
   - AWS Toolkit
   ![PluginInstall](img/setting/plugin_install.png)
@@ -51,6 +51,9 @@ https://www.jetbrains.com/ja-jp/pycharm/
 
   - 改行コードをLF(\n)にする
   ![LfSetting](img/setting/lf_setting_2.png)
+
+  - Commitメッセージのクリア
+  ![LfSetting](img/setting/clear_commit_message.png)
 
   - Welcome画面の表示(任意)
   ![LfSetting](img/setting/display_welcome.png)
