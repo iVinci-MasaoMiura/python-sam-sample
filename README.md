@@ -40,7 +40,7 @@ Communityをインストールする
 
 https://www.jetbrains.com/ja-jp/pycharm/
 
-## #Pycharm設定
+### Pycharm設定
 - Pluginインストール
   - AWS Toolkit
   ![PluginInstall](img/setting/plugin_install.png)
