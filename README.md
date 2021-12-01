@@ -1,15 +1,15 @@
 # 環境構築
 
-##git
+## git
 https://git-scm.com/
 
-###設定
+### 設定
 ```
 # 改行コードの自動変換を行わない
 git config --global core.autocrlf false
 ```
-##Python
-###pyenvインストール
+## Python
+### pyenvインストール
 複数のバージョンを管理できるように「pyenv」をインストールする
 
 https://github.com/pyenv-win/pyenv-win
@@ -31,16 +31,16 @@ pyenv install 3.9.5
 ```
 
 ## AWS SAM + Docker
-###インストール
+### インストール
 https://docs.aws.amazon.com/ja_jp/serverless-application-model/latest/developerguide/serverless-getting-started.html
 
-##PyCharm
-###インストール
+## PyCharm
+### インストール
 Communityをインストールする
 
 https://www.jetbrains.com/ja-jp/pycharm/
 
-###Pycharm設定
+## #Pycharm設定
 - Pluginインストール
   - AWS Toolkit
   ![PluginInstall](img/setting/plugin_install.png)
@@ -58,10 +58,10 @@ https://www.jetbrains.com/ja-jp/pycharm/
   - Welcome画面の表示(任意)
   ![LfSetting](img/setting/display_welcome.png)
 
-###プロジェクト作成
+### プロジェクト作成
 ![CreateProject](img/setting/create_project.png)
 
-###改行コード設定
+### 改行コード設定
 - 改行コード確認
 ![confirm_crlf](img/setting/confirm_crlf.png)
 
@@ -72,7 +72,7 @@ https://www.jetbrains.com/ja-jp/pycharm/
   - 改行コード変更
   ![change_lf](img/setting/change_lf_2.png)
 
-###Git Clone
+### Git Clone
 - Get From VCSをクリック
 ![GitClone1](img/setting/git_clone_1.png)
 - Githubの情報を入力する
