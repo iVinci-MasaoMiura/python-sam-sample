@@ -106,14 +106,20 @@ repos:
 pre-commit install
 ```
 
+## パッケージインストール
+
 ## メンバー参加時
 1. 開発環境構築を行う
 2. Get From VCSをクリック
-![GitClone1](img/setting/git_clone_1.png)
+![GitClone1](img/join/git_clone_1.png)
 3. Githubの情報を入力する
-![GitClone2](img/setting/git_clone_2.png)
-4. Formatter設定を行う
-5. PreCommit設定を行う
+![GitClone2](img/join/git_clone_2.png)
+4. venv設定を行う
+![venv](img/join/venv_setting.png)
+5. Formatter設定を行う
+- black
+https://black.readthedocs.io/en/stable/integrations/editors.html
+6. PreCommit設定を行う
 ```
 pre-commit install
 ```
