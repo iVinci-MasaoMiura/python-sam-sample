@@ -23,9 +23,11 @@ git clone https://github.com/pyenv-win/pyenv-win.git "$HOME/.pyenv"
 [System.Environment]::SetEnvironmentVariable('path', $env:USERPROFILE + "\.pyenv\pyenv-win\bin;" + $env:USERPROFILE + "\.pyenv\pyenv-win\shims;" + [System.Environment]::GetEnvironmentVariable('path', "User"),"User")
 ```
 
-PowerShellを再起動し、`pyenv --version`でバージョンが表示されることを確認
-###Pythonインストール
+### Pythonインストール
 ```
+# PowerShellを再起動する
+# バージョンが表示されることを確認
+pyenv --version
 # lambdaで「Python3.9」を使用する場合
 pyenv install 3.9.5
 pyenv global 3.9.5
@@ -78,6 +80,7 @@ https://www.jetbrains.com/ja-jp/pycharm/
 
 ## Formatter設定
 - black
+
 https://black.readthedocs.io/en/stable/integrations/editors.html
 
 ## PreCommit設定
@@ -88,6 +91,7 @@ pip install pre-commit
 2. .pre-commit-config.yaml作成
 ```
 repos:
+  # formatter
   - repo: https://github.com/psf/black
     rev: 21.12b0
     hooks:
@@ -96,6 +100,7 @@ repos:
     rev: 5.10.1
     hooks:
       - id: isort
+  # linter
   - repo: https://github.com/pycqa/flake8
     rev: 4.0.1
     hooks:
