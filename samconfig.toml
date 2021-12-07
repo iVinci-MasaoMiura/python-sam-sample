@@ -1,0 +1,13 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-m5y60qj85ldm"
+s3_prefix = "sam-app"
+region = "ap-northeast-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+parameter_overrides = "DomainName=\"api.slowter.work\" CertificateArn=\"arn:aws:acm:us-east-1:799734223068:certificate/900f2ba6-edc1-44eb-a508-0adde1a1f904\" HostedZoneId=\"Z05543851PKD21H3R1TYM\" BucketName=\"sam-s3-test-2021\" TableName=\"samTestTable\" CognitoUserPoolName=\"userPoolTest\" CognitoUserPoolClientName=\"userPoolClientTest\""
+image_repositories = []
