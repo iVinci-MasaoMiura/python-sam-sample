@@ -5,8 +5,8 @@ https://git-scm.com/
 
 ### 設定
 ```
-# 改行コードの自動変換を行わない
-git config --global core.autocrlf false
+# コミット時に改行コードをLFに変換する
+git config --global core.autocrlf input
 ```
 ## Python
 ### pyenvインストール
