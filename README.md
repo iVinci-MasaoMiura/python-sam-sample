@@ -122,10 +122,4 @@ pre-commit install
 4. venv設定を行う
 ![venv](img/join/venv_setting.png)
 5. Formatter設定を行う
-- black
-
-https://black.readthedocs.io/en/stable/integrations/editors.html
 6. PreCommit設定を行う
-```
-pre-commit install
-```
