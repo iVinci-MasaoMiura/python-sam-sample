@@ -112,6 +112,11 @@ pre-commit install
 ```
 
 ## パッケージインストール
+```
+pip install [パッケージ名]
+# インストールしたバージョンを保存する
+pip freeze > requirements.txt
+```
 
 ## メンバー参加時
 1. 開発環境構築を行う
